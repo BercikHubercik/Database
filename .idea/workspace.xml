@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cc4ecd3a-c5bd-4bab-b660-3d8b8e40ceb2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
       <workItem from="1614783759182" duration="1192000" />
       <workItem from="1614791491763" duration="12440000" />
       <workItem from="1614971873418" duration="3174000" />
-      <workItem from="1615423517056" duration="1366000" />
+      <workItem from="1615423517056" duration="5259000" />
     </task>
     <task id="LOCAL-00001" summary="project scratch">
       <created>1614897781757</created>
@@ -81,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615423734207</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ignore node_modules">
+      <created>1615425036774</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615425036774</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ignore node_module">
+      <created>1615425155277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615425155277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +106,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project scratch" />
     <MESSAGE value="moved db.js to correct dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved db.js to correct dir" />
+    <MESSAGE value="ignore node_modules" />
+    <MESSAGE value="ignore node_module" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore node_module" />
   </component>
 </project>

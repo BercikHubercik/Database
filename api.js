@@ -1,14 +1,15 @@
 const express = require('express');
 const app = express();
-const db = require('D:\\Users\\huber\\WebstormProjects\\untitled1\\node_modules\\db.js');
+const db = require('D:\\Users\\huber\\WebstormProjects\\untitled1\\db.js');
 
 app.post('/add', function (req, res) {
-    db.add(req.body.db_pk, req.body.db_type, req.body.db_id, req.body.db_obj);
+    db.add(req.db_pk, req.db_type, req.db_id, req.db_obj);
     res.send('Object added!');
 })
 
 app.get('/get', function (req, res) {
-    const demanded_obj = db.get(req.body.db_pk, req.body.db_type, req.body.db_id);
+
+    const demanded_obj = db.get(req.db_pk, req.body.db_type, req.body.db_id);
     res.json(demanded_obj);
 
 });
