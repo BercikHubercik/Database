@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const db = require('D:\\Users\\huber\\WebstormProjects\\untitled1\\db.js');
+const db = require('./db.js');
 
 app.post('/add', function (req, res) {
     db.add(req.db_pk, req.db_type, req.db_id, req.db_obj);

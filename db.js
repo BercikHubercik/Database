@@ -25,4 +25,5 @@ const database = {
     //filter(pk, type, simpleExpression){}
     //query(){}
 };
-exports.add = database.add()
+
+module.exports.db = database;
