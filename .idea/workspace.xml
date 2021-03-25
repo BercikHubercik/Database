@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,11 @@
       <workItem from="1615662832773" duration="812000" />
       <workItem from="1615980955949" duration="335000" />
       <workItem from="1615999949486" duration="606000" />
-      <workItem from="1616282304388" duration="2815000" />
+      <workItem from="1616282304388" duration="3137000" />
+      <workItem from="1616350312440" duration="281000" />
+      <workItem from="1616350615416" duration="35000" />
+      <workItem from="1616683613473" duration="1279000" />
+      <workItem from="1616703567427" duration="6131000" />
     </task>
     <task id="LOCAL-00001" summary="project scratch">
       <created>1614897781757</created>
@@ -116,11 +122,40 @@
       <option name="project" value="LOCAL" />
       <updated>1615481581410</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Db map added">
+      <created>1616285495887</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616285495888</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project scratch" />
@@ -129,6 +164,7 @@
     <MESSAGE value="ignore node_module" />
     <MESSAGE value="query instead of body" />
     <MESSAGE value="exports" />
-    <option name="LAST_COMMIT_MESSAGE" value="exports" />
+    <MESSAGE value="Db map added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Db map added" />
   </component>
 </project>
