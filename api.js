@@ -8,20 +8,18 @@ app.use(bodyParser.json());
 
 app.post('/add', function (req, res) {
     db.add(req.body.db_pk, req.body?.db_type, req.body.db_id, req.body.db_obj);
-    console.log(req.body?.db_pk, req.body?.db_type, req.db_id, req.db_obj, req.query.ala)
-    //console.log(db.DbMap);
+    console.log(db.DbMap);
     res.send('Object added!');
 });
 
 app.get('/get', function (req, res) {
-    console.log(db.DbMap);
     const demanded_obj = db.get(req.query.db_pk, req.query.db_type, req.query.db_id);
     res.json(demanded_obj);
 
 });
 
 app.get('/list', function (req, res) {
-    const demanded_list = db.get(req.db_pk, req.db_type);
+    const demanded_list = db.list(req.query.db_pk, req.query.db_type);
     res.json(demanded_list);
 
 });
@@ -32,7 +30,7 @@ app.get('/', function (req, res) {
 });
 
 setTimeout(function(){
-    console.log('timeout');
+    console.log('timout_test');
 }, 2000);
 
 
