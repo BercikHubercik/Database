@@ -1,4 +1,4 @@
-const DbMap = new Map();
+const dbMap = new Map();
 
 function mapToObject(map) {
     const out = Object.create(null)
@@ -14,21 +14,21 @@ function mapToObject(map) {
 }
 
 
-const Db = {
+const dbApp = {
 
     add(pk, type, id, obj) {
-        if (DbMap.get(pk) === undefined) {
-            DbMap.set(pk, new Map());
+        if (dbMap.get(pk) === undefined) {
+            dbMap.set(pk, new Map());
         }
-        if(DbMap.get(pk).get(type) === undefined) {
-            DbMap.get(pk).set(type, new Map());
+        if(dbMap.get(pk).get(type) === undefined) {
+            dbMap.get(pk).set(type, new Map());
         }
-        DbMap.get(pk).get(type).set(id, obj);
+        dbMap.get(pk).get(type).set(id, obj);
     },
 
     get(pk, type, id) {
         id = Number(id)
-        let obj1 = DbMap?.get(pk);
+        let obj1 = dbMap?.get(pk);
         if (!obj1){
             return 'Invalid pk';
         }
@@ -40,14 +40,14 @@ const Db = {
         return obj3 ? obj3 : 'No object found at given id';
     },
     list(pk, type) {
-        if (!DbMap?.get(pk)){
+        if (!dbMap?.get(pk)){
             return 'Invalid pk';
         }
-        else if (!DbMap?.get(pk).get(type)){
+        else if (!dbMap?.get(pk).get(type)){
             return 'Invalid type';
         }
         else{
-            return mapToObject(DbMap.get(pk).get(type));
+            return mapToObject(dbMap.get(pk).get(type));
         }
 
     }
@@ -56,7 +56,11 @@ const Db = {
     //query(){}
 };
 
-module.exports.add = Db.add;
-module.exports.get = Db.get;
-module.exports.list = Db.list;
-module.exports.DbMap = DbMap;
+
+
+module.exports = {
+    add : dbApp.add,
+    get : dbApp.get,
+    list : dbApp.list,
+    dbMap  
+   };

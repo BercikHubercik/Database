@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cc4ecd3a-c5bd-4bab-b660-3d8b8e40ceb2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,9 @@
       <workItem from="1616350615416" duration="35000" />
       <workItem from="1616683613473" duration="1279000" />
       <workItem from="1616703567427" duration="6382000" />
-      <workItem from="1616764700659" duration="8446000" />
+      <workItem from="1616764700659" duration="8549000" />
+      <workItem from="1617207536322" duration="62000" />
+      <workItem from="1617550484757" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="project scratch">
       <created>1614897781757</created>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616710092022</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="working DB">
+      <created>1616776260436</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616776260436</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +179,7 @@
     <MESSAGE value="exports" />
     <MESSAGE value="Db map added" />
     <MESSAGE value="pokonsultacyjne zmiany" />
-    <option name="LAST_COMMIT_MESSAGE" value="pokonsultacyjne zmiany" />
+    <MESSAGE value="working DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="working DB" />
   </component>
 </project>

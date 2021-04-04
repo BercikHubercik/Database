@@ -2,13 +2,14 @@ const express = require('express');
 const app = express();
 const db = require('./db');
 const bodyParser = require('body-parser')
+//import * as db from './db';
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.post('/add', function (req, res) {
     db.add(req.body.db_pk, req.body?.db_type, req.body.db_id, req.body.db_obj);
-    console.log(db.DbMap);
+    console.log(db.dbMap);
     res.send('Object added!');
 });
 
