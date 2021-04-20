@@ -1,0 +1,279 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "i-want-my-db-working;verify--work",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify  work",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I use db at url http://localhost:3000",
+            "match": {
+              "location": "features\\support\\steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I add item orlen of type obajtek with id 1 and body {\"a\":1,\"b\":2}",
+            "match": {
+              "location": "features\\support\\steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I receive status 200",
+            "match": {
+              "location": "features\\support\\steps.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-want-my-db-working;verify-add-item-work",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify add item work",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I use db at url http://localhost:3000",
+            "match": {
+              "location": "features\\support\\steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I add item orlen of type obajtek with id 1 and body {\"a\":1,\"b\":2}",
+            "match": {
+              "location": "features\\support\\steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I receive status 400",
+            "match": {
+              "location": "features\\support\\steps.js:73"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 7000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -200\n    +400\n\n    at World.<anonymous> (D:\\Users\\huber\\WebstormProjects\\untitled1\\features\\support\\steps.js:76:17)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-want-my-db-working;add",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Add",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I use db at url http://localhost:3000",
+            "match": {
+              "location": "features\\support\\steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I add item orlen of type obajtek with id 1 and body {\"a\":1,\"b\":2}",
+            "match": {
+              "location": "features\\support\\steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I receive status 200",
+            "match": {
+              "location": "features\\support\\steps.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-want-my-db-working;add",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Add",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I use db at url http://localhost:3001",
+            "match": {
+              "location": "features\\support\\steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I add item orlen of type obajtek with id 1 and body {\"a\":1,\"b\":2}",
+            "match": {
+              "location": "features\\support\\steps.js:55"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 12000000,
+              "error_message": "AssertionError: Unspecified AssertionError\n    at World.<anonymous> (D:\\Users\\huber\\WebstormProjects\\untitled1\\features\\support\\steps.js:68:10)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I receive status 400",
+            "match": {
+              "location": "features\\support\\steps.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "i-want-my-db-working",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "I want my db working",
+    "tags": [],
+    "uri": "features\\first.feature"
+  }
+]
